@@ -1,12 +1,12 @@
 import './App.css'
-import Greeting from './components/Greeting.jsx'
+import UserProfile from './components/UserProfile.jsx'
 
 function App() {
 
   return (
     <div>
-      <Greeting name="Мария" />
-      <Greeting name="Александр" />
+      <UserProfile name="Мария" age="20" />
+      <UserProfile name="Александр" age="25" />
     </div>
   )
 }
